@@ -1,0 +1,19 @@
+# Run account-auth server
+## 회원가입
+POST http://localhost:8081/auth/session/sign-up
+Content-Type: application/json
+Accept: application/json
+
+< session-sign-up.json
+
+### 로그인
+POST http://localhost:8081/auth/session/sign-in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "user@gmail.com",
+  "password": "123"
+}
+
+###

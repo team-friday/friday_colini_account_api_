@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "my-app",
+      "type": "com.juyoung.res.web.common.AppProperties",
+      "sourceType": "com.juyoung.res.web.common.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "my-app.admin-id",
+      "type": "java.lang.String",
+      "sourceType": "com.juyoung.res.web.common.AppProperties"
+    },
+    {
+      "name": "my-app.admin-password",
+      "type": "java.lang.String",
+      "sourceType": "com.juyoung.res.web.common.AppProperties"
+    },
+    {
+      "name": "my-app.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.juyoung.res.web.common.AppProperties"
+    },
+    {
+      "name": "my-app.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.juyoung.res.web.common.AppProperties"
+    },
+    {
+      "name": "my-app.user-id",
+      "type": "java.lang.String",
+      "sourceType": "com.juyoung.res.web.common.AppProperties"
+    },
+    {
+      "name": "my-app.user-password",
+      "type": "java.lang.String",
+      "sourceType": "com.juyoung.res.web.common.AppProperties"
+    }
+  ],
+  "hints": []
+}

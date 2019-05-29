@@ -1,0 +1,35 @@
+server:
+  servlet:
+    context-path: /account
+  port: 8082
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+my-app:
+  auth:
+    client-id: myApp
+    client-secret: password
+    redirect-url: http://localhost:8081/auth/oauth/check_token
+  client-id: myApp
+  client-secret: password
+  user-id: user@gmail.com
+  user-password: 123
+  admin-id: admin@gmail.com
+  admin-password: 123
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/toy?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: juyoung
+    password: pass
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true

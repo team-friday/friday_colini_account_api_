@@ -1,0 +1,22 @@
+## Run account-resource server
+## Account 조회
+GET http://localhost:8082/account/users/1
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}
+###
+
+## Account 수정
+PUT http://localhost:8082/account/users/1
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}
+
+{
+  "name": "change name"
+}
+###
+
+## Account 삭제
+DELETE http://localhost:8082/account/users/1
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}
+###
